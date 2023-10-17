@@ -1,5 +1,4 @@
-import React from "react"
-
+import propTypes from "prop-types"
 const InputTextarea = (props) => {
   const {
     placeholder,
@@ -23,6 +22,16 @@ const InputTextarea = (props) => {
       ></textarea>
     </>
   )
+}
+
+InputTextarea.propTypes={
+  cols:propTypes.string,
+  placeholder:propTypes.string,
+  rows:propTypes.string,
+  className:propTypes.string,
+  name:propTypes.string,
+  label:propTypes.string,
+  register:propTypes.func
 }
 
 export default InputTextarea

@@ -1,3 +1,5 @@
+import propTypes from "prop-types"
+
 const InputField = (props) => {
   const {
     label,
@@ -19,6 +21,14 @@ const InputField = (props) => {
       />
     </div>
   )
+}
+InputField.propTypes = {
+  label: propTypes.string,
+  className: propTypes.string,
+  placeholder: propTypes.string,
+  type: propTypes.string,
+  name: propTypes.string,
+  register: propTypes.func,
 }
 
 export default InputField
