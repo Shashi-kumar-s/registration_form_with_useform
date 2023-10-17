@@ -1,0 +1,34 @@
+.form__heading {
+    font-size: 25px !important;
+    font-weight: 500 !important;
+}
+
+.bg__img {
+    background-size: cover;
+    background-position: center;
+}
+
+.form__input {
+    width: 90% !important;
+    margin: 15px 0;
+    padding: 4px;
+    font-size: 17px;
+}
+
+.form__hobbies {
+    padding: 8px;
+    resize: none;
+    width: 90%;
+}
+
+.form__button {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
